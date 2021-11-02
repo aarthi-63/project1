@@ -1,0 +1,308 @@
+body{
+    background-color: rgb(224, 222, 222);
+    margin-bottom:80px;
+}
+.logo{
+    color:rgb(54, 7, 7);
+    font-style:italic;
+    font-size: 25px;;
+}
+.top{
+    background-color: rgb(231, 207, 207);
+    border:1px solid rgb(44, 42, 42);
+    box-shadow:0 6px 9px 0 rgb(59, 58, 58);
+}
+.main{
+    padding: 55px;
+    font-size:20px;
+}
+
+/* login stylesheet starts  */
+.rbg{
+    background-image:url("https://img3.goodfon.com/wallpaper/nbig/3/71/belyy-fon-apelsin-bryzgi.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+.lbox{
+    margin-left:500px;
+    margin-top:50px;
+    width:500px;
+    height:570px;
+    position:absolute;
+    background:rgba(119, 115, 115, 0.5);
+    border:2px solid rgb(148, 145, 145);
+    box-shadow:4px 6px rgb(71, 68, 68);
+}
+.rbox{
+    margin-left:500px;
+    margin-top:50px;
+    width:600px;
+    height:840px;
+    position:absolute;
+    background:rgba(119, 115, 115, 0.5);
+    border:2px solid rgb(148, 145, 145);
+    box-shadow:5px 8px rgb(71, 68, 68);
+}
+.ltop{
+    font-size:38px;
+    text-align: center;
+    color:rgb(63, 83, 22);
+    text-shadow:1px 2px rgb(209, 61, 35);
+}
+.rcont{
+    font-size:25px;
+    color:rgb(21, 4, 49);
+    text-shadow:1px 1.5px rgb(238, 16, 238);
+}
+.area{
+    border:3px solid white;
+    border-radius:8px;
+    height:30px;
+    width:300px;
+    background:none;
+    color:rgb(34, 10, 122);
+    font-size:20px;
+    text-shadow:1px 1.5px rgb(14, 218, 233);
+    
+}
+.rbtn{
+      border-radius:4px;
+      width:90px;
+      height:35px;
+      color:brown;
+      font-size:15px;
+      background-color:rgb(196, 168, 132);
+}
+.rbtn1{
+    border-radius:4px;
+    width:150px;
+    height:35px;
+    color:brown;
+    font-size:15px;
+    background-color:rgb(196, 168, 132);
+}
+/* login stylesheet ends  */
+
+/* slider stylesheet starts*/
+#slider{
+    margin-top: 30px;
+    overflow:hidden;
+}
+#slider figure{
+    position: relative;
+    width:400%;
+    
+    margin:0;
+    left:0;
+    animation:8s slider infinite;
+}
+#slider figure img{
+    float:left;
+    width:25%;
+}
+@keyframes slider {
+   0% {
+       left:0;
+   }
+   20% {
+       left:0;
+   }
+   25% {
+       left:-100%;
+   }
+   45% {
+       left:-100%;
+   }
+   50% {
+       left:-200%;
+   }
+   70% {
+       left:-200%;
+   }
+   75% {
+       left:-3000;
+   }
+   95% {
+       left:-300%;
+   }
+}
+/* slider stylesheet starts*/
+
+/*category stylesheet starts*/
+.topic{
+    text-align:center;
+    font-size:40px;
+    color:brown;
+    text-shadow:1.5px 2px rgb(29, 105, 139);
+}
+.speciality .box-container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:1.5em;
+}
+.speciality .box-container .box{
+    flex:1 1 30rem;
+    position:relative;
+    overflow:hidden;
+    box-shadow:0 .5rem 1rem rgb(75, 71, 71);
+    border:1px solid black;
+    cursor: pointer;
+    border-radius: 0.5px;
+}
+.speciality .box-container .box .image{
+    height :100%;
+    width:100%;
+    object-fit: cover;
+    position: absolute;
+    top:-100%;left:0;
+}
+.speciality .box-container .box .content{
+    text-align:centre;
+    background-color:rgb(206, 206, 188);
+    padding:6px;
+}
+.speciality .box-container .box .content .img{
+    margin: 5px 0;
+}
+h3{
+font-size:25px;
+    color:brown;
+    text-shadow: 1.5px 1.5px rgb(175, 91, 91);
+}
+.info{
+    color:rgb(11, 11, 139);
+    font-size:20px;
+}
+.speciality .box-container .box:hover .image{
+    top:0%;
+}
+/*category stylesheet ends*/
+
+/* order stylesheet starts*/
+
+.topic1{
+    text-align:left;
+    font-size:35px;
+    color:rgb(12, 65, 21);
+    text-shadow:1.5px 2px rgb(17, 98, 136);
+}
+.orderinfo{
+    margin-top: 100px;
+}
+.img{
+   
+    width:700px;
+    height:350px;
+    float:right;
+    animation :float 3s linear infinite;
+}
+
+@keyframes float{
+    0%,100%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform:translateY(3rem);
+    }
+}
+.order1{
+    margin-top:150px;
+}
+.fimg{
+   
+    width:900px;
+    height:350px;
+    float:left;
+    animation :float 3s linear infinite;
+}
+
+@keyframes float{
+    0%,100%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform:translateY(3rem);
+    }
+}
+/* order stylesheets ends*/
+
+/*juice sheet starts*/
+.jimg{
+    padding: 0px 2px;
+    margin-left:100px;
+    border:2px solid red;
+    box-shadow: 4px 4px rgb(69, 69, 160);
+    cursor:pointer;
+    transition:1s;
+}
+.jimg:hover{
+    transform:scale(1.1);
+}
+.box-containers{
+    margin-top: 40px;
+    margin-left: 130px;;
+    display:flex;
+    flex-wrap:wrap;
+    gap: 90px;
+    
+}
+.boxs{
+    border:1px solid black ;
+    box-shadow: 3px 4px grey;
+    border-radius:20px;
+    
+}
+.box-info{
+    margin-bottom:4px;
+    border:1px solid rgb(156, 152, 152);
+    box-shadow:2px 2px rgb(134, 130, 130);
+    border-radius: 10px;
+    text-align: center;
+}
+.btnorder{
+    border:2px solid red;
+    color:red;
+    height:35px;
+    font-size:18px;
+    border-radius:7px;
+    cursor:pointer;
+}
+.btnorder:hover{
+    color:white;
+    background-color:red;
+}
+/*juice sheet starts*/
+
+/*review sheet starts*/
+   .review{
+       margin-top:170px;
+   }
+   .rebox-container{
+   border:2px solid rgb(36, 34, 34);
+   display:flex;
+    flex-wrap:wrap;
+   }
+   .rebox{
+    width:498px ;
+    height:600px ;
+    box-shadow:4px 4px rgb(109, 107, 107);
+   }
+   .rimg{
+       margin-left: 120px;
+   }
+/*review sheet ends*/
+
+.cir{
+    width:270px;
+    height:270px;
+    border-radius: 45%;
+}
+.box-cont1{
+    margin-top:90px; ;
+    display:flex;
+flex-wrap:wrap;
+}
+.box1{
+    margin-left:80px;
+}
