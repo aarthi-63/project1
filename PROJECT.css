@@ -284,25 +284,25 @@ font-size:25px;
     flex-wrap:wrap;
    }
    .rebox{
-    width:498px ;
-    height:600px ;
+    width:413px ;
+    height:580px ;
     box-shadow:4px 4px rgb(109, 107, 107);
    }
    .rimg{
-       margin-left: 120px;
+       margin-left: 80px;
    }
 /*review sheet ends*/
 
 .cir{
-    width:270px;
-    height:270px;
+    width:200px;
+    height:200px;
     border-radius: 45%;
 }
 .box-cont1{
-    margin-top:90px; ;
+    margin-top:70px; ;
     display:flex;
 flex-wrap:wrap;
 }
 .box1{
-    margin-left:80px;
+    margin-left:50px;
 }
